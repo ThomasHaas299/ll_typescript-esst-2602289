@@ -1,6 +1,6 @@
 export function Demo() {
   enum MyEnumErrorCode {
-    ERR_1 = 5,
+    ERR_1,
     ERR_199,
     ERR_9000,
   }

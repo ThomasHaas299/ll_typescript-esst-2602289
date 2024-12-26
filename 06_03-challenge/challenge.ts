@@ -1,4 +1,9 @@
-interface MyFunctionType {}
+interface MyFunctionType {
+  (
+    requiredNumber: number,
+    optionalString?: string
+  ) : void;
+}
 
 export function Challenge() {
   const myFunction: MyFunctionType = (
